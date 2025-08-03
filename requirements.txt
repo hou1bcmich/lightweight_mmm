@@ -1,0 +1,15 @@
+# Core modeling & dependencies
+numpy==1.24.4
+jax==0.4.20
+jaxlib==0.4.20
+numpyro==0.12.1
+optax==0.1.6
+
+# Data handling and scientific computing
+pandas>=1.3.0
+scikit-learn>=0.24.2
+matplotlib>=3.4.2
+
+# Required by lightweight_mmm
+absl-py>=0.12.0
+immutabledict>=2.0.0
