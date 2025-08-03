@@ -1,17 +1,22 @@
-# Compatible with Python 3.11
+# Core modeling
 numpy==1.24.4
 jax==0.4.23
 jaxlib==0.4.23
 numpyro==0.13.2
 optax==0.1.9
 
-pandas>=1.5.2
-scikit-learn>=0.24.2
-matplotlib>=3.4.2
+# Data science stack
+pandas==1.5.3
+scikit-learn==1.3.2
+matplotlib==3.6.3
 
+# Required by lightweight_mmm
 absl-py>=0.12.0
 immutabledict>=2.0.0
 
+# Optional: TensorFlow
 tensorflow
-arviz==0.15.1
+
+# Bayesian diagnostics
 xarray==2023.1.0
+arviz==0.15.1
